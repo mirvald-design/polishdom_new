@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 32px 140px;
   background-color: #f7f7f7;
   font-family: "Jost", sans-serif;
   color: #05060f;
@@ -186,10 +187,10 @@ button {
   .main {
     display: flex;
     flex-direction: column;
-    padding: 64px;
     gap: 40px;
     margin-left: auto;
     margin-right: auto;
+    width: 1160px;
   }
 
   /* Navigation */
@@ -254,7 +255,6 @@ button {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 80vh;
     background-color: #ff3b30;
     background-image: url(/img/abstract/header.svg);
     background-repeat: no-repeat;
@@ -269,7 +269,7 @@ button {
   }
 
   .title {
-    font-size: 8rem;
+    font-size: 80px;
     color: #fff;
     line-height: normal;
     font-weight: 700;
@@ -1095,6 +1095,7 @@ button {
     padding: 20px 24px;
     color: #05060f;
     font-weight: 500;
+    width: 100%;
   }
 
   .price {
@@ -1517,12 +1518,21 @@ button {
     display: flex;
     color: #fff;
     flex-direction: column;
-    gap: 16px;
-    background-color: #4153e2;
+    gap: 20px;
+    background-color: #fff;
     align-items: center;
-    padding: 16px;
+    padding: 20px;
     text-align: center;
     background-image: url(/img/questions.svg);
+    width: 100%;
+    border-radius: 24px;
+    border: 1px solid #14151d1a;
+  }
+  .questions h1,
+  h2 {
+    color: #333;
+  }
+  .questions a {
     width: 100%;
   }
 
